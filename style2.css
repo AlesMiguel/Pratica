@@ -1,0 +1,48 @@
+ /* Esse é um comentario */
+
+:root{
+    --bg--red: red;
+    --bg--yellow: yellow;
+    --bg--green: green;
+    --bg--black: #000;
+}
+h1{
+    color: #fff;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:var(--bg--black)
+    
+}
+#red{
+    background-color: var(--bg--red);
+}
+
+#yellow{
+    background-color: var(--bg--yellow);
+}
+
+#green{
+    background-color: var(--bg--green);
+}
+    div{
+        color: #424242;
+        font-size: 30px;
+        margin: 20px;
+        display: flex;
+          align-items: center;
+          justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 2s;
+    }
+div:hover{
+    color: #000;
+    font: 35px;
+
+

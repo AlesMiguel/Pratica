@@ -1,0 +1,57 @@
+body{
+    background-color: darkviolet;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+.p-class{
+    color: black;
+    font-size: 20px;
+    font-weight: border;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: aquamarine;
+    transition: 2s;
+    cursor: pointer;
+}
+.p-class:hover{
+    color: red;
+    font-size: 25px;
+    background-color: black;
+
+}
+#p-id{
+    color: red;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 7px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: 2s;
+}
+#p-id:hover{
+    color: #000;
+    font-size: 25px;
+    background-color: #fff;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+
+    border-radius: 50%;
+    transition: 2s;
+    cursor: pointer;
+}
+.box:hover{
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+
+}
